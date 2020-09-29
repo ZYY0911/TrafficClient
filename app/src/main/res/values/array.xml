@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hld">
+        <item>路口升序</item>
+        <item>路口降序</item>
+        <item>红灯升序</item>
+        <item>红灯降序</item>
+    </string-array>
+    <string-array name="ch">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="je">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+</resources>
