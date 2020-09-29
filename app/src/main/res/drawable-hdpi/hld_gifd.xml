@@ -5,13 +5,14 @@
         android:duration="500">
 
     </item>
+
     <item
-        android:drawable="@drawable/huangdeng"
+        android:drawable="@drawable/lvdeng"
         android:duration="500">
 
     </item>
     <item
-        android:drawable="@drawable/lvdeng"
+        android:drawable="@drawable/huangdeng"
         android:duration="500">
 
     </item>

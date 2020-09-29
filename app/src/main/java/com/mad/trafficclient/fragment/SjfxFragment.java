@@ -55,7 +55,6 @@ public class SjfxFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        Log.i("aaa", "onResume: ");
         fragments = new ArrayList<>();
         setVolley();
 
@@ -111,7 +110,7 @@ public class SjfxFragment extends Fragment {
         Log.i("aaa", "setListDate: " + a + "-" + b + "-" + c);
         fragments.add(new Sjfxfragment1(yes, no));
         fragments.add(new SjfcFragemnt2(a, b, c));
-        viewPager.setAdapter(new MyAdapte(getFragmentManager()));
+        viewPager.setAdapter(new MyAdapte(getChildFragmentManager()));
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

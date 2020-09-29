@@ -33,6 +33,7 @@ import com.mad.trafficclient.fragment.Fragment_2;
 import com.mad.trafficclient.fragment.Fragment_3;
 import com.mad.trafficclient.fragment.Fragment_4;
 import com.mad.trafficclient.fragment.SjfxFragment;
+import com.mad.trafficclient.fragment.YhzxFragemnt;
 
 
 public class MainActivity extends FragmentActivity {
@@ -152,13 +153,17 @@ public class MainActivity extends FragmentActivity {
                         break;
 
                     case 4:
-                      //  exitAppDialog();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new YhzxFragemnt()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
 
                         break;
                     case 5:
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new SjfxFragment()).commit();
                         tV_title.setText(actionTexts[arg2]);
-                       // recreate();
+                    case 6:
+                        recreate();
+                        break;
 
                     default:
                         break;

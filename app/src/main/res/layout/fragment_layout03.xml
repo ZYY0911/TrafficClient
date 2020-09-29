@@ -78,10 +78,10 @@
 
         <Spinner
             android:id="@+id/spinner_ch"
+            style="@android:style/Widget.DeviceDefault.Spinner"
             android:layout_width="130dp"
             android:layout_height="match_parent"
             android:entries="@array/ch"
-            android:gravity="center"
             android:textColor="#000"
             android:textSize="25sp" />
 
@@ -129,6 +129,7 @@
 
         <Spinner
             android:id="@+id/spinner_je"
+            style="@android:style/Widget.DeviceDefault.Spinner"
             android:layout_width="130dp"
             android:layout_height="match_parent"
             android:entries="@array/je"
@@ -189,6 +190,7 @@
 
         <Spinner
             android:id="@+id/spinner_ch_2"
+            style="@android:style/Widget.DeviceDefault.Spinner"
             android:layout_width="130dp"
             android:layout_height="match_parent"
             android:entries="@array/ch"
@@ -239,10 +241,10 @@
 
             <RadioButton
                 android:id="@+id/bt_asc"
-                android:checked="true"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:checked="true"
                 android:text="时间升序" />
 
             <RadioButton

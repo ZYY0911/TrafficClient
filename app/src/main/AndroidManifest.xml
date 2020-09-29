@@ -21,17 +21,20 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_title" />
-        <activity
-            android:name=".login.LoginActivity"
             android:label="@string/app_title"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
-
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/app_title"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+
+
         </activity>
         <activity
             android:name=".login.RegActivity"
@@ -40,6 +43,8 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity android:name=".activity.SpActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:name=".activity.YhzxActivity"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
     </application>
 
